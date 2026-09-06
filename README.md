@@ -92,8 +92,4 @@ See LICENSE and COPYRIGHT.md. Materials are published for portfolio review, prof
 
 © 2026 Marsharine A. Simpson. All rights reserved.
 
-One edit before you commit: the Upwork link is a placeholder pointing at upwork.com. Swap in your real profile URL, or delete that bullet until the Catalog listing clears.
 
-Tell me when it's committed and I'll give you the next item.
-
-Write a message…
