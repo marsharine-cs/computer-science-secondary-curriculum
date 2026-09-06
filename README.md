@@ -1,146 +1,99 @@
-# Computer Science Secondary Curriculum
+Computer Science Secondary Curriculum
 
-An ongoing secondary computer science curriculum development project focused on creating clear, practical, standards-informed instructional materials for middle and high school learners.
+Standards-referenced computer science curriculum for middle and high school, built by a state-certified CS educator who also ships software.
 
-This repository serves as a **public portfolio and development showcase** for curriculum work created by **Marsharine A. Simpson**.
+Every code example and error message in this curriculum was produced by execution before it was written down. Interpreter output — including caret positions and Python's own suggestions — is captured from real runs, not reproduced from memory. If you compare this to most published CS materials, that is the difference you will notice first.
 
-## Project Purpose
+This repository is a public portfolio and development showcase for curriculum work created by Marsharine A. Simpson — State Computer Science credentials in Florida and New Jersey, BS Information Technology and Security, full-stack developer.
 
-The goal of this project is to develop complete computer science learning experiences that move beyond isolated lesson plans.
+Why this exists
 
-Courses and units are designed as connected instructional systems that may include:
+Most curriculum writers can teach or they can code. When only one is true, one of two things happens: the code examples break, or the material is technically accurate but nobody can learn from it.
 
-* Scope and sequence
-* Teacher lesson plans
-* Instructional slide decks
-* Student workbooks and printables
-* Coding activities and labs
-* Independent practice
-* Exit tickets
-* Quizzes and knowledge checks
-* Performance tasks
-* Rubrics
-* Teacher answer keys and worked solutions
-* Differentiation and instructional support
+This project is written by one person doing both. That is why the code is tested and why the pedagogy is deliberate.
 
-## Current Development
+Current development
+Introduction to Python — Grades 9–12
 
-### Introduction to Python — Grades 9–12
+A first course in text-based programming for students with no prior coding experience. Students progress from single-line output to multi-function programs that process real data.
 
-The first major course currently in development is an introductory Python programming curriculum for secondary students.
+Lessons	36
+Units	7
+Duration	One semester, 16 weeks
+Prerequisites	None
+Environment	Browser-based — no installation required
+Grade band	9–12, with grades 6–8 adaptation notes embedded per lesson
+Unit	Title	Lessons
+1	Getting Started with Python	5
+2	Variables and Data	6
+3	Making Decisions	6
+4	Repetition and Loops	6
+5	Functions and Decomposition	6
+6	Lists and Working with Data	5
+7	Capstone Project	2
 
-The course is designed for students with no prior coding experience and emphasizes:
+See ROADMAP.md for development status and planned expansion.
 
-* computational thinking
-* precise instructions
-* programming fundamentals
-* debugging
-* readable and documented code
-* variables and data
-* decision-making
-* loops
-* functions
-* lists and data analysis
-* project-based application
+Design principles
 
-The complete planned course contains **7 units and 36 lessons**.
+Working code over vocabulary. Every unit ends with students having built something that runs. Terminology supports the work; it does not replace it.
 
-### Course Sequence
+Errors are information, not failure. Traceback reading is taught in Lesson 1.3 — the third lesson of the course, deliberately, before frustration accumulates. Most beginners quit at their first error message because nobody taught them how to read one.
 
-1. Getting Started with Python
-2. Variables and Data
-3. Making Decisions
-4. Repetition and Loops
-5. Functions and Decomposition
-6. Lists and Working with Data
-7. Capstone Project
+A program that runs is not the same as a program that is correct. Established on day one with no code knowledge required. Every later unit depends on that distinction.
 
-The curriculum is currently under active development and quality review.
+Comments explain why, not what. Students are limited to exactly two comments on the Unit 1 documentation task. Without a cap they annotate every line and learn nothing about judgment. The constraint is the lesson.
 
-## Instructional Design Approach
+One error can hide another. The Unit 1 debugging lab includes a case where a syntax error prevents the program from running at all, concealing a second fault until the first is fixed. Students learn to correct the first reported error and run again rather than guessing at everything at once.
 
-A core principle of this project is that instructional materials should work together as a coherent system.
+No installation required. The course runs in any modern browser, which keeps it viable on managed Chromebooks and in districts where software installs require IT approval.
 
-The development workflow follows this sequence:
+Teacher notes explain reasoning. Every lesson documents why it is built the way it is — not just what to do, but what students will get wrong and why the sequence works.
 
-**Finalized Lesson → Aligned Instructional Materials → Quality Assurance → Portfolio Sample → Public Release**
+Instructional design approach
 
-The finalized lesson is treated as the source of truth. Slides, activities, assessments, student materials, and teacher resources are checked against the lesson before a unit is considered complete.
+Materials are built as a coherent system, not a pile of documents. The development workflow:
 
-## Future Curriculum Areas
+Finalized lesson → aligned instructional materials → alignment review → quality assurance → portfolio sample → public release
 
-This repository is intentionally broader than a single programming language.
+The finalized lesson is the source of truth. Slides, activities, assessments, student materials, and teacher resources are all checked against it before a unit is considered complete.
 
-Future curriculum development may include:
+A complete unit includes: scope and sequence, teacher lesson plans, instructional slides, student workbook, coding labs, independent practice, exit tickets, quizzes, performance tasks, rubrics, teacher answer keys with worked solutions, and differentiation guidance.
 
-* JavaScript
-* Java
-* Web Development
-* Computer Science Foundations
-* Data and Computing
-* Algorithmic Thinking
-* Additional secondary programming courses
-* Cross-language programming resources
+Standards
 
-The repository structure will expand as those courses move into development.
+Designed with reference to the CSTA K–12 Computer Science Standards, Level 3A and the AP® Computer Science Principles framework, Big Ideas 1 and 3. Identifiers are listed per lesson so a district can run its own crosswalk.
 
-## Repository Organization
+This is not a complete AP Computer Science Principles course. It does not cover Big Ideas 2, 4, or 5 at exam depth and does not include the Create Performance Task. It works as a pre-AP course, as the programming backbone of an AP CSP course supplemented with the remaining Big Ideas, or as a standalone introduction.
 
-As the project grows, materials will be organized by course or subject area.
+One thing most Python-based AP CSP materials skip: the exam uses College Board pseudocode, not Python. From Unit 3 onward, every unit includes a translation exercise so students can move between the two notations. Students who never practice this discover the gap during the exam.
 
-Example structure:
+See NOTICES_AND_ATTRIBUTION.md for full attribution, trademark, and non-endorsement statements.
 
-```text
-computer-science-secondary-curriculum/
-│
-├── README.md
-├── ROADMAP.md
-├── COPYRIGHT.md
-│
-├── python/
-│   ├── grades-9-12/
-│   └── samples/
-│
-├── javascript/
-├── java/
-├── web-development/
-├── computer-science-foundations/
-│
-└── docs/
-```
+What is published here
 
-Only selected portfolio samples and public-facing materials will be included in this repository.
+Selected portfolio samples only — course overviews, lesson excerpts, coding activities, and curriculum documentation.
 
-Complete editable curriculum packages, teacher answer keys, full assessments, and other protected instructional materials are maintained separately.
+Complete lesson sets, full answer keys, protected assessments, and editable teacher resources are maintained privately and are available as licensed or commissioned deliverables.
 
-## Portfolio Use
+Future curriculum areas
 
-This repository is intended to demonstrate work in:
+This repository is intentionally broader than a single language. Planned expansion includes JavaScript, Java, web development, computer science foundations, and data and computing, along with middle school and elementary adaptations.
 
-* Computer science curriculum development
-* Secondary programming education
-* Instructional design
-* Assessment development
-* Technical content development
-* Student-centered computing instruction
-* Curriculum architecture and alignment
+Working together
 
-Public materials represent selected examples from larger curriculum-development projects.
+Available for custom Python and computer science curriculum development — EdTech teams, schools, coding academies, enrichment programs, and course creators. Projects can be scoped as a single lesson, a multi-lesson unit, or a full course build.
 
-## Project Status
+Curriculum development work: Upwork
+Professional background: LinkedIn
+Rights
 
-🚧 **Active Development**
+See LICENSE and COPYRIGHT.md. Materials are published for portfolio review, professional evaluation, and client evaluation. Public availability does not place them in the public domain, and reuse beyond viewing requires written permission.
 
-The repository will continue to expand as additional units, courses, programming languages, and instructional resources are completed and approved for public release.
+© 2026 Marsharine A. Simpson. All rights reserved.
 
-See `ROADMAP.md` for development progress.
+One edit before you commit: the Upwork link is a placeholder pointing at upwork.com. Swap in your real profile URL, or delete that bullet until the Catalog listing clears.
 
-## Copyright
+Tell me when it's committed and I'll give you the next item.
 
-© Marsharine A. Simpson. All rights reserved.
-
-Unless explicitly stated otherwise, curriculum materials, instructional resources, assessments, written content, and original project assets in this repository are provided for portfolio and demonstration purposes.
-
-They may not be reproduced, redistributed, republished, or used commercially without permission.
-
-See `COPYRIGHT.md` for additional information.
+Write a message…
