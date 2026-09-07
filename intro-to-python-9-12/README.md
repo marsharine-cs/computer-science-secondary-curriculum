@@ -16,7 +16,7 @@ A high-level view of the course structure, instructional approach, assessment ph
 
 ### [Flagship Sample Lesson — Lesson 1.3: Reading Errors as Information](sample-lesson-1.3.md)
 
-A complete lesson published as the primary portfolio sample. It demonstrates:
+A full instructional portfolio sample demonstrating:
 
 - learning objectives and vocabulary;
 - direct instruction and teacher modeling;
@@ -28,7 +28,7 @@ A complete lesson published as the primary portfolio sample. It demonstrates:
 - teacher notes;
 - grades 6–8 adaptation guidance.
 
-Lesson 1.3 is intentionally taught early in the course so students learn to interpret errors as useful information rather than treating debugging as an afterthought.
+Lesson 1.3 is intentionally taught early in the course so students begin learning to interpret errors as useful information before programming tasks become more complex.
 
 ### Public Python code examples
 
@@ -87,7 +87,7 @@ The finalized lesson is the source of truth for all associated slides, student m
 This repository may include selected examples such as:
 
 - course overviews;
-- one complete flagship lesson;
+- one complete flagship instructional sample;
 - selected lesson excerpts;
 - selected coding examples;
 - selected instructional or assessment samples;
@@ -126,11 +126,13 @@ See the repository [ROADMAP](../ROADMAP.md) for current development status.
 
 ## Standards and attribution
 
-The curriculum is designed with reference to the **CSTA K–12 Computer Science Standards, Level 3A** and selected concepts from the **AP® Computer Science Principles** framework.
+The course was originally developed with references to the **CSTA K–12 Computer Science Standards, Revised 2017**. CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026 with a new grade-band structure and new identifiers. A verified lesson-by-lesson remap is now part of the course quality-assurance process.
 
-It is not a complete AP Computer Science Principles course and has not been reviewed or endorsed by CSTA or the College Board.
+Legacy 2017 identifiers are therefore treated as historical design references until each lesson is remapped. This curriculum has not received a CSTA Curriculum Alignment Review or Seal of Alignment.
 
-See [NOTICES_AND_ATTRIBUTION.md](../NOTICES_AND_ATTRIBUTION.md) for full standards, trademark, verification, and non-endorsement information.
+The course also references selected concepts from the **AP® Computer Science Principles** framework. It is not a complete AP Computer Science Principles course and is not represented as an authorized AP® course.
+
+See [NOTICES_AND_ATTRIBUTION.md](../NOTICES_AND_ATTRIBUTION.md) for full standards versioning, trademark, verification, and non-endorsement information.
 
 ---
 
