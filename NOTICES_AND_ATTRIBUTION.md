@@ -4,19 +4,19 @@
 
 This curriculum is designed with reference to published computer science education frameworks. It is an independent work and carries no endorsement from the organizations referenced below.
 
-### CSTA K–12 Computer Science Standards
+### CSTA PK–12 Computer Science Standards
 
-Standard identifiers and references used in this curriculum are drawn from the **CSTA K–12 Computer Science Standards, Revised 2017**, published by the Computer Science Teachers Association in 2017.
+CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026. The revised standards use a new grade-band structure and new identifiers, replacing the Level 1A/1B/2/3A/3B structure used in the **CSTA K–12 Computer Science Standards, Revised 2017**.
 
-The CSTA K–12 Computer Science Standards are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).**
+The current **Introduction to Python — Grades 9–12** course was originally developed with references to the 2017 standards. Any public `3A-...` or other 2017 identifiers should therefore be read as **legacy design references**, not as claims of current alignment to the 2026 standards.
 
-CSTA requires content to be reviewed by its Standards Review Team before formal alignment with the CSTA K–12 Computer Science Standards may be claimed.
+A lesson-by-lesson remap to the 2026 standards is part of the curriculum's ongoing quality-assurance work. New or revised public standards references will use the 2026 framework once that remap has been verified.
 
-**This curriculum has not undergone that review.**
+The 2026 CSTA PK–12 Computer Science Standards are published by the Computer Science Teachers Association and are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**. CSTA provides a suggested citation for the 2026 standards on its official standards site.
 
-References to CSTA standards identify concepts the curriculum is intended to address. They do not represent a claim of CSTA-certified or CSTA-approved alignment.
+CSTA's Curriculum Alignment Review provides independent validation of curriculum alignment to the 2026 standards. **This curriculum has not received a CSTA Curriculum Alignment Review or Seal of Alignment.** References to CSTA standards identify concepts used during curriculum design and do not represent CSTA certification, approval, endorsement, or validated alignment.
 
-Unless specifically stated otherwise, public portfolio samples in this repository use standards references and identifiers rather than republishing complete CSTA standards text.
+Unless specifically stated otherwise, public portfolio samples use standards names or identifiers rather than republishing substantial standards text.
 
 ### AP® Computer Science Principles
 
@@ -42,9 +42,7 @@ Educators, schools, districts, and other users should confirm standards identifi
 
 ## Code Verification
 
-Python examples and interpreter output in the current **Introduction to Python — Grades 9–12** curriculum were produced by execution using **Python 3.12**.
-
-Error messages, caret positions, and interpreter suggestions were captured from actual program execution.
+Every Python example and interpreter message **published in this repository** is verified through execution using **Python 3.12** before public release.
 
 Python interpreter messages can change between versions. Differences between the output shown in these materials and another Python environment are therefore possible and can provide useful opportunities for classroom discussion.
 
