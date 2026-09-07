@@ -2,7 +2,7 @@
 
 **Grades 9–12** · **36 lessons** · **7 units** · **One semester / 16 weeks**
 
-Prepared by **Marsharine A. Simpson** — State Computer Science credentials, Florida and New Jersey
+Prepared by **Marsharine A. Simpson** — New Jersey CTE Computer Science Technology Certificate of Eligibility (Grades 9–12) · Florida Computer Science Statement of Eligibility (K–12)
 
 > **Portfolio preview:** This document presents the course architecture at a high level. The complete scope and sequence, lesson objectives, teacher notes, differentiation guidance, assessments, answer keys, and editable instructional materials are maintained privately.
 
