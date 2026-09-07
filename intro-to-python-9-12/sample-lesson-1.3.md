@@ -2,15 +2,15 @@
 
 **Introduction to Python** · Unit 1: Getting Started · Grades 9–12 · One 50-minute session
 
-*This is a complete lesson from the course, published in full as a portfolio sample.*
+*This is a full instructional portfolio sample based on Lesson 1.3 from the course.*
 
 ---
 
 ## Why this lesson exists
 
-Most beginners quit at their first traceback. Not because the concept was hard, but because nobody taught them that an error message is information rather than a verdict.
+Early error messages can become a major source of frustration for beginning programmers when they have not yet learned how to read them. This lesson introduces traceback reading as a structured debugging skill rather than a signal to start changing code at random.
 
-This is the third lesson of the course. It is placed early on purpose — before frustration accumulates, and before students develop the guess-and-check habit that stops working around Unit 4.
+It is placed early in the course so students establish a read-before-fix routine before later programming tasks become more complex.
 
 ---
 
@@ -42,7 +42,7 @@ Students will be able to:
 
 Project this traceback with no code visible:
 
-```
+```text
 Traceback (most recent call last):
   File "main.py", line 2, in <module>
     print("I am " + age)
@@ -56,7 +56,7 @@ Ask three questions and take answers before explaining anything:
 - What was Python trying to do?
 - What is it complaining about?
 
-Students can answer all three without knowing what a TypeError is. That is the point of the lesson: **the message contains the answer.**
+Students can answer all three without knowing what a TypeError is. That is the point of the lesson: **the message contains useful diagnostic information.**
 
 ### Direct instruction — 10 minutes
 
@@ -68,7 +68,7 @@ Read it **bottom-up**. The last line names the error type and describes it. Ever
 
 **Runtime errors** mean the code is written legally but fails while running. Some of the program may have executed already.
 
-Emphasize: an error message is not a punishment. It is the most specific, most useful information a student will get all day. Professional developers read tracebacks constantly.
+Emphasize: an error message is not a punishment. It is one of the most specific sources of diagnostic information available while debugging. Professional developers read tracebacks routinely.
 
 ### Modeling — 12 minutes
 
@@ -80,7 +80,7 @@ Work through each of these live. For every one, read the message aloud, ask the 
 print(student_name)
 ```
 
-```
+```text
 Traceback (most recent call last):
   File "main.py", line 1, in <module>
     print(student_name)
@@ -96,7 +96,7 @@ Runtime error. Python ran, reached the name, and had nothing stored under it.
 Print("Hello")
 ```
 
-```
+```text
 Traceback (most recent call last):
   File "main.py", line 1, in <module>
     Print("Hello")
@@ -113,7 +113,7 @@ age = 16
 print("I am " + age)
 ```
 
-```
+```text
 Traceback (most recent call last):
   File "main.py", line 2, in <module>
     print("I am " + age)
@@ -121,7 +121,7 @@ Traceback (most recent call last):
 TypeError: can only concatenate str (not "int") to str
 ```
 
-Note the squiggles under the whole expression and the caret at the operator. Python is showing exactly where the incompatibility is. Preview only — Unit 2 handles the fix.
+Note the squiggles under the whole expression and the caret at the operator. Python is showing where the incompatibility occurs. Preview only — Unit 2 handles the fix.
 
 **IndentationError**
 
@@ -130,7 +130,7 @@ print("first")
     print("second")
 ```
 
-```
+```text
   File "main.py", line 2
     print("second")
 IndentationError: unexpected indent
@@ -144,7 +144,7 @@ Syntax error. No traceback header, because nothing ran. Whitespace is structural
 print("Hello)
 ```
 
-```
+```text
   File "main.py", line 1
     print("Hello)
           ^
@@ -153,7 +153,7 @@ SyntaxError: unterminated string literal (detected at line 1)
 
 The caret marks where Python lost the thread.
 
-Draw the pattern out explicitly: **syntax errors show a file and line but no "Traceback" header. Runtime errors show the traceback.** That single tell lets students categorize an error in one second.
+Draw the pattern out explicitly: **syntax errors show a file and line but no "Traceback" header. Runtime errors show the traceback.** This distinction gives students a quick way to categorize many beginner errors.
 
 ### Guided practice — 15 minutes
 
@@ -165,7 +165,7 @@ Draw the pattern out explicitly: **syntax errors show a file and line but no "Tr
 
 Only then do they fix it.
 
-Enforce the order. Students who fix first and read second are guessing, and guessing stops working around Unit 4.
+Enforce the order. Students who fix first and read second may solve a simple error without learning the diagnostic process; later programs require a more systematic debugging routine.
 
 ### Closing — 5 minutes
 
@@ -210,7 +210,7 @@ print('Mismatched quotes")
 
 **1.** Line 2. `SyntaxError: '(' was never closed`. Missing closing parenthesis.
 
-*Note: Python reports line 2 even though a student may expect line 3 — the parser keeps looking for the close and gives up at the next statement. Worth discussing. The reported line is where Python noticed, not always where you erred.*
+*Note: Python reports line 2 even though a student may expect line 3 — the parser keeps looking for the close and gives up at the next statement. Worth discussing. The reported line is where Python noticed, not always where the original mistake occurred.*
 
 **2.** Line 2. `NameError: name 'Print' is not defined`. Capital P. Runtime error — line 1 prints before it fails.
 
@@ -230,7 +230,7 @@ print('Mismatched quotes")
 
 For this traceback, identify each part:
 
-```
+```text
 Traceback (most recent call last):
   File "main.py", line 4, in <module>
     print(total_score)
@@ -281,7 +281,7 @@ Write a program that produces a `NameError`. Then write one producing a `SyntaxE
 
 **3.** Variable never assigned, a typo in the name, or a capitalization mismatch. Any one is full credit.
 
-**4.** Neither — it is a logic error. Accept any answer conveying that the program works but produces the wrong result. This connects directly to Lesson 1.1. Students who say "runtime error" need that link rebuilt.
+**4.** Neither — it is a logic error. Accept any answer conveying that the program works but produces the wrong result. This connects directly to Lesson 1.1. Students who say "runtime error" need that distinction revisited.
 
 ---
 
@@ -291,27 +291,27 @@ Write a program that produces a `NameError`. Then write one producing a `SyntaxE
 
 **Extension:** Have students write a broken program for a partner to debug, then compare how quickly the partner found it. Introduce `ZeroDivisionError` and `IndexError` as preview.
 
-**English language learners:** Provide a reference card translating error type names into plain language. The technical vocabulary is the barrier here, not the concept.
+**English language learners:** Provide a reference card translating error type names into plain language. Technical vocabulary may be the primary barrier for some students even when the underlying debugging concept is accessible.
 
-**Prior experience:** Ask them to explain why Python reports line 2 in Program 1 rather than line 3. That is a genuinely interesting parser question and will occupy them.
+**Prior experience:** Ask them to explain why Python reports line 2 in Program 1 rather than line 3. That parser behavior gives experienced students a deeper question without moving ahead to unrelated content.
 
 ---
 
 ## Teacher notes
 
-**This lesson is the retention lever for the whole course.** Most beginners quit at their first traceback because they read it as "you failed" rather than "here is exactly what is wrong." Placing this third, before students have accumulated frustration, changes the trajectory of the semester.
+**This lesson establishes a foundational debugging routine for the course.** Early tracebacks can become a significant point of frustration when students have not yet learned how to interpret them. Placing this lesson third gives students a structured read-before-fix process before programs become more complex.
 
-**Enforce read-before-fix.** The instinct is to change something and re-run. That works for two more weeks and then stops working forever. The habit built here is the one that survives.
+**Enforce read-before-fix.** The instinct is often to change something and re-run without interpreting the message. That can produce accidental fixes without building a transferable debugging process. The habit developed here is to read, describe, then revise.
 
-**Say the sentence out loud:** "The error message is the most helpful thing you'll see today." Repeat it every time a student calls you over. By November they will say it back to you.
+**Use consistent language:** "The error message is useful information." Repeating that idea when students ask for help can make it part of the class debugging routine.
 
-**Program 1's line number surprise is worth the detour** if the class is engaged. It teaches that the reported line is where Python noticed, not always where you erred.
+**Program 1's line number surprise is worth the detour** if the class is engaged. It teaches that the reported line is where Python noticed, not always where the original mistake occurred.
 
 ---
 
 ## Grades 6–8 adaptation
 
-Cut TypeError entirely — it depends on type concepts from Unit 2 and confuses more than it teaches at this level. Reduce the gauntlet to three programs. Extend across two sessions, using the second for partner debugging, which middle schoolers respond to well.
+Cut TypeError entirely — it depends on type concepts from Unit 2 and can add unnecessary cognitive load at this point for younger learners. Reduce the gauntlet to three programs. Extend across two sessions, using the second for partner debugging.
 
 ---
 
@@ -320,6 +320,12 @@ Cut TypeError entirely — it depends on type concepts from Unit 2 and confuses 
 Every traceback shown here was produced by running the code on **Python 3.12** — including caret positions, squiggle underlines, and Python's own "Did you mean" suggestions. None of it was written from memory or approximated.
 
 Python error messages change between versions. If a classroom environment reports something slightly different, that is expected, and it is worth showing students.
+
+---
+
+### Standards versioning note
+
+The course was originally developed with references to the CSTA K–12 Computer Science Standards, Revised 2017. CSTA published revised PK–12 standards in 2026, and the course's lesson-level CSTA references are being remapped as part of quality assurance. See [NOTICES_AND_ATTRIBUTION.md](../NOTICES_AND_ATTRIBUTION.md) for details.
 
 ---
 
