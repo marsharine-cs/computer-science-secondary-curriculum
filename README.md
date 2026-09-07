@@ -2,7 +2,7 @@
 
 Standards-referenced computer science curriculum for middle and high school, built by a computer science educator and developer.
 
-**Every code example and error message in this curriculum was produced by execution before it was written down.** Interpreter output — including caret positions and Python's own suggestions — is captured from real runs, not reproduced from memory. This gives reviewers a concrete, testable view of the technical accuracy behind the instructional materials.
+**Every Python example and interpreter message published in this repository is verified through execution using Python 3.12 before public release.** This gives reviewers a concrete, testable view of the technical quality-assurance process behind the published instructional samples.
 
 This repository is a **public portfolio and development showcase** for curriculum work created by **Marsharine A. Simpson** — New Jersey CTE Computer Science Technology Certificate of Eligibility (Grades 9–12), Florida Computer Science Statement of Eligibility (K–12), BS Information Technology and Security, full-stack developer.
 
@@ -77,13 +77,15 @@ A complete unit includes: scope and sequence, teacher lesson plans, instructiona
 
 ## Standards
 
-Designed with reference to the **CSTA K–12 Computer Science Standards, Level 3A** and the **AP® Computer Science Principles** framework, Big Ideas 1 and 3. Identifiers are listed per lesson so a district can run its own crosswalk.
+The course was originally developed with references to the **CSTA K–12 Computer Science Standards, Revised 2017**, including Level 3A identifiers. CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026 with a new grade-band structure and new identifiers. A lesson-by-lesson remap to the 2026 standards is now part of the curriculum quality-assurance process.
 
-**This is not a complete AP Computer Science Principles course.** It does not cover Big Ideas 2, 4, or 5 at exam depth and does not include the Create Performance Task. It works as a pre-AP course, as the programming backbone of an AP CSP course supplemented with the remaining Big Ideas, or as a standalone introduction.
+Until that remap is complete, legacy 2017 identifiers should be read as historical design references rather than claims of current 2026 alignment. This project has not received a CSTA Curriculum Alignment Review or Seal of Alignment.
+
+The course also references selected concepts from the **AP® Computer Science Principles** framework, especially Big Ideas 1 and 3. **This is not a complete AP Computer Science Principles course and is not represented as an authorized AP® course.** Schools that wish to use the AP designation must complete the College Board AP Course Audit independently.
 
 Because AP Computer Science Principles uses College Board pseudocode rather than Python-specific syntax in its assessment framework, Units 3 and beyond include translation exercises that ask students to express the same logic in both forms. This gives students deliberate practice separating an algorithm from the syntax of a particular programming language.
 
-See [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md) for full attribution, trademark, and non-endorsement statements.
+See [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md) for standards versioning, attribution, trademark, and non-endorsement information.
 
 ---
 
