@@ -105,7 +105,7 @@ This repository is intentionally broader than a single language. Planned expansi
 
 Available for custom Python and computer science curriculum development — EdTech teams, schools, coding academies, enrichment programs, and course creators. Projects can be scoped as a single lesson, a multi-lesson unit, or a full course build.
 
-- **Curriculum development work:** [Upwork](https://www.upwork.com/)
+- **Curriculum development work:** [Upwork](https://www.upwork.com/freelancers/marsharine)
 - **Professional background:** [LinkedIn](https://www.linkedin.com/in/marsharine-a-simpson/)
 
 ---
