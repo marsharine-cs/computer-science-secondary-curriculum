@@ -2,7 +2,7 @@
 
 Standards-referenced computer science curriculum for middle and high school, built by a state-certified CS educator who also ships software.
 
-**Every code example and error message in this curriculum was produced by execution before it was written down.** Interpreter output — including caret positions and Python's own suggestions — is captured from real runs, not reproduced from memory. If you compare this to most published CS materials, that is the difference you will notice first.
+**Every code example and error message in this curriculum was produced by execution before it was written down.** Interpreter output — including caret positions and Python's own suggestions — is captured from real runs, not reproduced from memory. This gives reviewers a concrete, testable view of the technical accuracy behind the instructional materials.
 
 This repository is a **public portfolio and development showcase** for curriculum work created by **Marsharine A. Simpson** — State Computer Science credentials in Florida and New Jersey, BS Information Technology and Security, full-stack developer.
 
@@ -10,9 +10,9 @@ This repository is a **public portfolio and development showcase** for curriculu
 
 ## Why this exists
 
-Most curriculum writers can teach or they can code. When only one is true, one of two things happens: the code examples break, or the material is technically accurate but nobody can learn from it.
+Strong computer science curriculum has to do two things at once: present technically accurate programming content and make that content teachable for learners who are encountering it for the first time.
 
-This project is written by one person doing both. That is why the code is tested and why the pedagogy is deliberate.
+This project brings curriculum design and software development together. The code is tested, the instructional sequence is deliberate, and the materials are built around how students actually encounter and solve programming problems.
 
 ---
 
@@ -49,17 +49,17 @@ See [ROADMAP.md](ROADMAP.md) for development status and planned expansion.
 
 **Working code over vocabulary.** Every unit ends with students having built something that runs. Terminology supports the work; it does not replace it.
 
-**Errors are information, not failure.** Traceback reading is taught in Lesson 1.3 — the third lesson of the course, deliberately, before frustration accumulates. Most beginners quit at their first error message because nobody taught them how to read one.
+**Errors are information, not failure.** Traceback reading is taught in Lesson 1.3 — the third lesson of the course — so students begin building an error-reading and debugging habit before later programming tasks become more complex.
 
 **A program that runs is not the same as a program that is correct.** Established on day one with no code knowledge required. Every later unit depends on that distinction.
 
-**Comments explain why, not what.** Students are limited to exactly two comments on the Unit 1 documentation task. Without a cap they annotate every line and learn nothing about judgment. The constraint is the lesson.
+**Comments explain why, not what.** Students are limited to exactly two comments on the Unit 1 documentation task. The cap pushes students to make deliberate choices about which design decisions actually need explanation.
 
-**One error can hide another.** The Unit 1 debugging lab includes a case where a syntax error prevents the program from running at all, concealing a second fault until the first is fixed. Students learn to correct the first reported error and run again rather than guessing at everything at once.
+**One error can hide another.** The Unit 1 debugging lab includes a case where a syntax error prevents the program from running at all, concealing a second fault until the first is fixed. Students learn to correct the first reported error and run again rather than changing several things at once.
 
 **No installation required.** The course runs in any modern browser, which keeps it viable on managed Chromebooks and in districts where software installs require IT approval.
 
-**Teacher notes explain reasoning.** Every lesson documents why it is built the way it is — not just what to do, but what students will get wrong and why the sequence works.
+**Teacher notes explain reasoning.** Every lesson documents why it is built the way it is — not just what to do, but common misconceptions, likely sticking points, and the reasoning behind the sequence.
 
 ---
 
@@ -81,7 +81,7 @@ Designed with reference to the **CSTA K–12 Computer Science Standards, Level 3
 
 **This is not a complete AP Computer Science Principles course.** It does not cover Big Ideas 2, 4, or 5 at exam depth and does not include the Create Performance Task. It works as a pre-AP course, as the programming backbone of an AP CSP course supplemented with the remaining Big Ideas, or as a standalone introduction.
 
-**One thing most Python-based AP CSP materials skip:** the exam uses College Board pseudocode, not Python. From Unit 3 onward, every unit includes a translation exercise so students can move between the two notations. Students who never practice this discover the gap during the exam.
+Because AP Computer Science Principles uses College Board pseudocode rather than Python-specific syntax in its assessment framework, Units 3 and beyond include translation exercises that ask students to express the same logic in both forms. This gives students deliberate practice separating an algorithm from the syntax of a particular programming language.
 
 See [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md) for full attribution, trademark, and non-endorsement statements.
 
