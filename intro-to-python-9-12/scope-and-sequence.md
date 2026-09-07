@@ -23,7 +23,7 @@ The course emphasizes:
 - applied programming tasks rather than syntax recall;
 - gradual movement from Python code to broader algorithmic reasoning.
 
-All current Python examples and interpreter output used in the curriculum are verified through execution on **Python 3.12** before publication.
+Every Python example and interpreter message **published in this repository** is verified through execution using **Python 3.12** before public release.
 
 ---
 
@@ -102,17 +102,19 @@ Detailed assessment instruments, rubrics, answer keys, and teacher solutions are
 
 ## Standards reference
 
-The curriculum is designed with reference to the **CSTA K–12 Computer Science Standards, Level 3A** and selected concepts from the **AP® Computer Science Principles** framework.
+The course was originally developed with references to the **CSTA K–12 Computer Science Standards, Revised 2017**. CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026 with a new grade-band structure and new identifiers. A lesson-by-lesson remap to the 2026 standards is now part of the course quality-assurance process.
 
-This is **not** a complete AP Computer Science Principles course and should not be represented as an authorized AP® course.
+Legacy Level 3A and other 2017 identifiers are treated as historical design references until each lesson's 2026 mapping is verified. This curriculum has not received a CSTA Curriculum Alignment Review or Seal of Alignment.
 
-See [NOTICES_AND_ATTRIBUTION.md](../NOTICES_AND_ATTRIBUTION.md) for attribution, trademark, standards-review, and non-endorsement information.
+The course also references selected concepts from the **AP® Computer Science Principles** framework. This is **not** a complete AP Computer Science Principles course and should not be represented as an authorized AP® course.
+
+See [NOTICES_AND_ATTRIBUTION.md](../NOTICES_AND_ATTRIBUTION.md) for standards versioning, attribution, trademark, and non-endorsement information.
 
 ---
 
 ## Public sample
 
-A complete portfolio lesson is available here:
+A full instructional portfolio sample is available here:
 
 - [Lesson 1.3 — Reading Errors as Information](sample-lesson-1.3.md)
 
