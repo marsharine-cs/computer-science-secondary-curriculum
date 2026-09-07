@@ -1,10 +1,10 @@
 # Computer Science Secondary Curriculum
 
-Standards-referenced computer science curriculum for middle and high school, built by a state-certified CS educator who also ships software.
+Standards-referenced computer science curriculum for middle and high school, built by a computer science educator and developer.
 
 **Every code example and error message in this curriculum was produced by execution before it was written down.** Interpreter output — including caret positions and Python's own suggestions — is captured from real runs, not reproduced from memory. This gives reviewers a concrete, testable view of the technical accuracy behind the instructional materials.
 
-This repository is a **public portfolio and development showcase** for curriculum work created by **Marsharine A. Simpson** — State Computer Science credentials in Florida and New Jersey, BS Information Technology and Security, full-stack developer.
+This repository is a **public portfolio and development showcase** for curriculum work created by **Marsharine A. Simpson** — New Jersey CTE Computer Science Technology Certificate of Eligibility (Grades 9–12), Florida Computer Science Statement of Eligibility (K–12), BS Information Technology and Security, full-stack developer.
 
 ---
 
