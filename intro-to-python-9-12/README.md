@@ -30,6 +30,16 @@ A complete lesson published as the primary portfolio sample. It demonstrates:
 
 Lesson 1.3 is intentionally taught early in the course so students learn to interpret errors as useful information rather than treating debugging as an afterthought.
 
+### Public Python code examples
+
+Small runnable examples corresponding directly to the flagship debugging lesson are available in [`code-examples/`](code-examples/):
+
+- [`name-error-correction.py`](code-examples/name-error-correction.py)
+- [`type-error-correction.py`](code-examples/type-error-correction.py)
+- [`syntax-indentation-correction.py`](code-examples/syntax-indentation-correction.py)
+
+These files provide inspectable Python source while keeping the broader course code, assessments, and teacher materials private.
+
 ---
 
 ## Course at a glance
