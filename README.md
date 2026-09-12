@@ -1,38 +1,38 @@
 # Computer Science Secondary Curriculum
 
-Standards-referenced computer science curriculum for middle and high school, built by a computer science educator and developer.
+**Python curriculum development · Grades 9–12 · Instructional design · Assessment · Technical QA**
 
-**Every Python example and interpreter message published in this repository is verified through execution using Python 3.12 before public release.** This gives reviewers a concrete, testable view of the technical quality-assurance process behind the published instructional samples.
+This repository is a public portfolio and development showcase for an original **36-lesson, 7-unit Introduction to Python course for Grades 9–12** created by **Marsharine A. Simpson**, a Computer Science educator with New Jersey and Florida teaching credentials and a B.S. in Information Technology & Security.
 
-This repository is a **public portfolio and development showcase** for curriculum work created by **Marsharine A. Simpson** — New Jersey CTE Computer Science Technology Certificate of Eligibility (Grades 9–12), Florida Computer Science Statement of Eligibility (K–12), BS Information Technology and Security, full-stack developer.
+> **Every Python example and interpreter message published here is verified by execution in Python 3.12 before release.**
+
+That verification process is central to the project: the goal is not only to make programming content readable, but to make sure the examples, error messages, expected outputs, assessments, and teacher guidance are technically dependable.
+
+## Quick links
+
+- **Flagship sample lesson:** [Lesson 1.3 — Reading Python Errors](intro-to-python-9-12/sample-lesson-1.3.md)
+- **Development roadmap:** [ROADMAP.md](ROADMAP.md)
+- **Standards, attribution, and non-endorsement notes:** [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md)
+- **Work with me:** [Upwork](https://www.upwork.com/freelancers/marsharine)
+- **Professional background:** [LinkedIn](https://www.linkedin.com/in/marsharine-a-simpson/)
 
 ---
 
-## Why this exists
-
-Strong computer science curriculum has to do two things at once: present technically accurate programming content and make that content teachable for learners who are encountering it for the first time.
-
-This project brings curriculum design and software development together. The code is tested, the instructional sequence is deliberate, and the materials are built around how students actually encounter and solve programming problems.
-
----
-
-## Current development
-
-### Introduction to Python — Grades 9–12
-
-A first course in text-based programming for students with no prior coding experience. Students progress from single-line output to multi-function programs that process real data.
+## Course at a glance
 
 | | |
 |---|---|
+| **Course** | Introduction to Python |
+| **Grade band** | 9–12 |
 | **Lessons** | 36 |
 | **Units** | 7 |
-| **Duration** | One semester, 16 weeks |
-| **Prerequisites** | None |
-| **Environment** | Browser-based — no installation required |
-| **Grade band** | 9–12, with grades 6–8 adaptation notes embedded per lesson |
+| **Duration** | One semester / approximately 16 weeks |
+| **Prerequisites** | No prior coding experience required |
+| **Environment** | Browser-based; no local installation required |
+| **Adaptation** | Grades 6–8 adaptation notes embedded throughout |
 
-| Unit | Title | Lessons |
-|---|---|---|
+| Unit | Topic | Lessons |
+|---|---|---:|
 | 1 | Getting Started with Python | 5 |
 | 2 | Variables and Data | 6 |
 | 3 | Making Decisions | 6 |
@@ -41,79 +41,100 @@ A first course in text-based programming for students with no prior coding exper
 | 6 | Lists and Working with Data | 5 |
 | 7 | Capstone Project | 2 |
 
-See [ROADMAP.md](ROADMAP.md) for development status and planned expansion.
-
 ---
 
-## Design principles
+## What a complete unit includes
 
-**Working code over vocabulary.** Every unit ends with students having built something that runs. Terminology supports the work; it does not replace it.
+The curriculum is designed as a connected instructional system rather than a collection of isolated worksheets. Depending on the unit, materials include:
 
-**Errors are information, not failure.** Traceback reading is taught in Lesson 1.3 — the third lesson of the course — so students begin building an error-reading and debugging habit before later programming tasks become more complex.
+- scope and sequence
+- teacher lesson plans
+- instructional slides
+- student workbook materials
+- coding labs and debugging practice
+- independent practice
+- exit tickets and quizzes
+- performance checkpoints
+- 24-point rubrics
+- teacher answer keys and worked solutions
+- differentiation guidance
+- pacing and instructor notes
 
-**A program that runs is not the same as a program that is correct.** Established on day one with no code knowledge required. Every later unit depends on that distinction.
-
-**Comments explain why, not what.** Students are limited to exactly two comments on the Unit 1 documentation task. The cap pushes students to make deliberate choices about which design decisions actually need explanation.
-
-**One error can hide another.** The Unit 1 debugging lab includes a case where a syntax error prevents the program from running at all, concealing a second fault until the first is fixed. Students learn to correct the first reported error and run again rather than changing several things at once.
-
-**No installation required.** The course runs in any modern browser, which keeps it viable on managed Chromebooks and in districts where software installs require IT approval.
-
-**Teacher notes explain reasoning.** Every lesson documents why it is built the way it is — not just what to do, but common misconceptions, likely sticking points, and the reasoning behind the sequence.
+Complete teacher resources, protected assessments, editable files, and answer keys are maintained privately. This repository publishes selected samples for professional and client review.
 
 ---
 
 ## Instructional design approach
 
-Materials are built as a coherent system, not a pile of documents. The development workflow:
+### Teach students to read errors early
 
-**Finalized lesson → aligned instructional materials → alignment review → quality assurance → portfolio sample → public release**
+Traceback reading begins in Lesson 1.3, before later programming tasks become complex. Students are taught to identify the line, error type, and meaning of the message before they change the code.
 
-The finalized lesson is the source of truth. Slides, activities, assessments, student materials, and teacher resources are all checked against it before a unit is considered complete.
+### Separate “runs” from “correct”
 
-A complete unit includes: scope and sequence, teacher lesson plans, instructional slides, student workbook, coding labs, independent practice, exit tickets, quizzes, performance tasks, rubrics, teacher answer keys with worked solutions, and differentiation guidance.
+A program that executes is not automatically correct. The course returns to this distinction through silent logic errors, condition order, input validation, loop termination, testing, and checkpoint tasks.
 
----
+### Build reasoning, not syntax copying
 
-## Standards
+Students predict, run, read, explain, repair, and justify. Later units ask students to explain why a loop terminates, why one structure fits better than another, and how the same algorithm can be expressed in Python and pseudocode.
 
-The course was originally developed with references to the **CSTA K–12 Computer Science Standards, Revised 2017**, including Level 3A identifiers. CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026 with a new grade-band structure and new identifiers. A lesson-by-lesson remap to the 2026 standards is now part of the curriculum quality-assurance process.
+### Keep the teacher supported
 
-Until that remap is complete, legacy 2017 identifiers should be read as historical design references rather than claims of current 2026 alignment. This project has not received a CSTA Curriculum Alignment Review or Seal of Alignment.
-
-The course also references selected concepts from the **AP® Computer Science Principles** framework, especially Big Ideas 1 and 3. **This is not a complete AP Computer Science Principles course and is not represented as an authorized AP® course.** Schools that wish to use the AP designation must complete the College Board AP Course Audit independently.
-
-Because AP Computer Science Principles uses College Board pseudocode rather than Python-specific syntax in its assessment framework, Units 3 and beyond include translation exercises that ask students to express the same logic in both forms. This gives students deliberate practice separating an algorithm from the syntax of a particular programming language.
-
-See [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md) for standards versioning, attribution, trademark, and non-endorsement information.
+Teacher notes explain common misconceptions, likely sticking points, the reasoning behind the sequence, expected output, and how to respond when students struggle.
 
 ---
 
-## What is published here
+## Technical quality assurance
 
-Selected portfolio samples only — course overviews, lesson excerpts, coding activities, and curriculum documentation.
+The curriculum development workflow is:
 
-Complete lesson sets, full answer keys, protected assessments, and editable teacher resources are maintained privately and are available as licensed or commissioned deliverables.
+**finalized lesson → supporting materials → alignment review → code/output verification → QA → portfolio sample / delivery**
 
----
+Published Python examples and interpreter messages are checked through execution rather than written from memory. This matters especially when teaching beginners, because small inaccuracies in tracebacks, expected output, indentation, or type behavior can create unnecessary confusion.
 
-## Future curriculum areas
-
-This repository is intentionally broader than a single language. Planned expansion includes JavaScript, Java, web development, computer science foundations, and data and computing, along with middle school and elementary adaptations.
+The curriculum also maintains correction records and version-aware notes because exact interpreter wording can differ across Python versions.
 
 ---
 
-## Working together
+## Standards references
 
-Available for custom Python and computer science curriculum development — EdTech teams, schools, coding academies, enrichment programs, and course creators. Projects can be scoped as a single lesson, a multi-lesson unit, or a full course build.
+The course was originally designed with references to the **CSTA K–12 Computer Science Standards (2017)**, including Level 3A identifiers. CSTA released revised standards in 2026, so remapping to the newer framework is part of the curriculum QA process.
 
-- **Curriculum development work:** [Upwork](https://www.upwork.com/freelancers/marsharine)
-- **Professional background:** [LinkedIn](https://www.linkedin.com/in/marsharine-a-simpson/)
+The course also references selected concepts from the **AP® Computer Science Principles** framework, particularly Big Ideas 1 and 3, and introduces pseudocode translation where appropriate.
+
+**Important:** this project does not claim CSTA certification, a CSTA Seal of Alignment, College Board approval, or status as a complete AP Computer Science Principles course.
+
+See [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md) for versioning, trademark, attribution, and non-endorsement details.
+
+---
+
+## Professional use
+
+I develop and review Computer Science instructional materials for:
+
+- schools and districts
+- EdTech companies
+- curriculum publishers
+- coding academies
+- tutoring and enrichment programs
+- organizations building technical training products
+
+Projects can be scoped as a **single lesson, multi-lesson unit, curriculum review, assessment package, or larger course build**.
+
+My broader background includes Computer Science and STEM instruction, AI content evaluation, SaaS/technical support, software development projects, cybersecurity fundamentals, and technical documentation.
+
+---
+
+## Planned expansion
+
+The repository is intentionally broader than one course. Future curriculum areas may include JavaScript, Java, web development, Computer Science foundations, cybersecurity, and data/computing topics, along with additional middle-school adaptations.
 
 ---
 
 ## Rights
 
-See [LICENSE](LICENSE) and [COPYRIGHT.md](COPYRIGHT.md). Materials are published for portfolio review, professional evaluation, and client evaluation. Public availability does not place them in the public domain, and reuse beyond viewing requires written permission.
+See [LICENSE](LICENSE) and [COPYRIGHT.md](COPYRIGHT.md).
+
+Materials are published for portfolio review, professional evaluation, and client evaluation. Public availability does not place them in the public domain, and reuse beyond the stated license requires written permission.
 
 © 2026 Marsharine A. Simpson. All rights reserved.
