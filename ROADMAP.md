@@ -8,44 +8,37 @@ The repository is designed to grow across multiple programming languages, comput
 
 ### Introduction to Python — Grades 9–12
 
-**Status:** Active Development
+**Status: Complete — 36 lessons across 7 units, with technical verification completed**
 
-Planned course structure:
+Course structure:
 
-* Unit 1 — Getting Started with Python
-* Unit 2 — Variables and Data
-* Unit 3 — Making Decisions
-* Unit 4 — Repetition and Loops
-* Unit 5 — Functions and Decomposition
-* Unit 6 — Lists and Working with Data
-* Unit 7 — Capstone Project
+* Unit 1 — Getting Started with Python — 5 lessons
+* Unit 2 — Variables and Data — 6 lessons
+* Unit 3 — Making Decisions — 6 lessons
+* Unit 4 — Repetition and Loops — 6 lessons
+* Unit 5 — Functions and Decomposition — 6 lessons
+* Unit 6 — Lists and Working with Data — 5 lessons
+* Unit 7 — Capstone Project — 2 lessons
 
-### Development Status
+### Completion Status
 
-**Unit 1 — Getting Started with Python**
-Status: Alignment Review / Quality Assurance
+All **36 lessons** are complete. The course includes lesson plans, instructional materials, student practice, debugging work, assessments, rubrics, teacher guidance, and supporting resources developed as one connected instructional system.
 
-The lesson content and accompanying instructional materials are being reviewed to ensure that slides, student resources, activities, assessments, and teacher materials are fully aligned.
+Technical verification has been completed for the Python instructional content. Code examples and interpreter messages used in the curriculum are checked by execution in Python 3.12 before release so expected output, error behavior, and teaching examples are grounded in actual interpreter results.
 
-**Unit 2 — Variables and Data**
-Status: In Development
-
-**Units 3–7**
-Status: Planned
+Public GitHub materials remain a selected professional showcase rather than a release of the full commercial curriculum. Complete editable teacher resources, protected assessments, answer keys, and other proprietary materials are maintained separately.
 
 ## Development Workflow
 
-Each instructional unit follows this process:
+The curriculum was developed through this process:
 
-**Lesson Development → Lesson Finalization → Companion Material Development → Alignment Review → Quality Assurance → Portfolio Review → Public Sample Release**
+**Lesson Development → Lesson Finalization → Companion Material Development → Standards Reference Review → Code/Output Verification → Quality Assurance → Portfolio Review → Public Sample Release**
 
-The finalized lesson serves as the source of truth for all accompanying materials.
+The finalized lesson serves as the source of truth for accompanying materials.
 
 ## Public Repository Releases
 
-Only selected, reviewed portfolio samples will be published in this repository.
-
-Public releases may include:
+Selected, reviewed portfolio samples may include:
 
 * Course overviews
 * Selected lesson excerpts
@@ -65,7 +58,6 @@ Planned expansion areas may include:
 
 ### Programming Languages
 
-* Python
 * JavaScript
 * Java
 * Additional programming languages as courses are developed
@@ -78,6 +70,7 @@ Planned expansion areas may include:
 * Data and Computing
 * Programming Projects
 * Software Development Concepts
+* Cybersecurity fundamentals
 * Additional secondary computer science topics
 
 ## Long-Term Project Direction
@@ -93,15 +86,16 @@ The long-term goal is to build a growing collection of coherent secondary comput
 * differentiation
 * teacher support
 * project-based learning
+* technical quality assurance
 
 ## Status Key
 
-**Active Development** — currently being written or built
-**Alignment Review** — materials are being checked against finalized lesson content
-**Quality Assurance** — instructional and technical review in progress
-**Public Sample Ready** — approved for inclusion in the public repository
+**Complete** — lesson/course content has been completed  
+**Technically Verified** — code examples and interpreter messages have been checked by execution  
+**Quality Assurance** — instructional and technical review in progress  
+**Public Sample Ready** — approved for inclusion in the public repository  
 **Planned** — scheduled for future development
 
 ---
 
-This roadmap will be updated as curriculum units, courses, programming languages, and public portfolio samples progress.
+This roadmap will be updated as new courses, programming languages, and public portfolio samples are developed.
