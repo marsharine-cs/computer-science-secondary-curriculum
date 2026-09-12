@@ -2,16 +2,16 @@
 
 **Python curriculum development · Grades 9–12 · Instructional design · Assessment · Technical QA**
 
-This repository is a public portfolio and development showcase for an original **36-lesson, 7-unit Introduction to Python course for Grades 9–12** created by **Marsharine A. Simpson**, a Computer Science educator with New Jersey and Florida teaching credentials and a B.S. in Information Technology & Security.
+This repository is a public portfolio and development showcase for an original, completed **36-lesson, 7-unit Introduction to Python course for Grades 9–12** created by **Marsharine A. Simpson**, a Computer Science educator with New Jersey and Florida teaching credentials and a B.S. in Information Technology & Security.
 
-> **Every Python example and interpreter message published here is verified by execution in Python 3.12 before release.**
+> **All 36 lessons are complete, and the Python instructional content has been technically verified. Every Python example and interpreter message published here is verified by execution in Python 3.12 before release.**
 
 That verification process is central to the project: the goal is not only to make programming content readable, but to make sure the examples, error messages, expected outputs, assessments, and teacher guidance are technically dependable.
 
 ## Quick links
 
 - **Flagship sample lesson:** [Lesson 1.3 — Reading Python Errors](intro-to-python-9-12/sample-lesson-1.3.md)
-- **Development roadmap:** [ROADMAP.md](ROADMAP.md)
+- **Development and completion status:** [ROADMAP.md](ROADMAP.md)
 - **Standards, attribution, and non-endorsement notes:** [NOTICES_AND_ATTRIBUTION.md](NOTICES_AND_ATTRIBUTION.md)
 - **Work with me:** [Upwork](https://www.upwork.com/freelancers/marsharine)
 - **Professional background:** [LinkedIn](https://www.linkedin.com/in/marsharine-a-simpson/)
@@ -23,6 +23,7 @@ That verification process is central to the project: the goal is not only to mak
 | | |
 |---|---|
 | **Course** | Introduction to Python |
+| **Status** | 36 lessons complete · technical verification completed |
 | **Grade band** | 9–12 |
 | **Lessons** | 36 |
 | **Units** | 7 |
@@ -88,9 +89,9 @@ Teacher notes explain common misconceptions, likely sticking points, the reasoni
 
 The curriculum development workflow is:
 
-**finalized lesson → supporting materials → alignment review → code/output verification → QA → portfolio sample / delivery**
+**finalized lesson → supporting materials → standards reference review → code/output verification → QA → portfolio sample / delivery**
 
-Published Python examples and interpreter messages are checked through execution rather than written from memory. This matters especially when teaching beginners, because small inaccuracies in tracebacks, expected output, indentation, or type behavior can create unnecessary confusion.
+Python examples and interpreter messages are checked through execution rather than written from memory. This matters especially when teaching beginners, because small inaccuracies in tracebacks, expected output, indentation, or type behavior can create unnecessary confusion.
 
 The curriculum also maintains correction records and version-aware notes because exact interpreter wording can differ across Python versions.
 
@@ -98,7 +99,7 @@ The curriculum also maintains correction records and version-aware notes because
 
 ## Standards references
 
-The course was originally designed with references to the **CSTA K–12 Computer Science Standards (2017)**, including Level 3A identifiers. CSTA released revised standards in 2026, so remapping to the newer framework is part of the curriculum QA process.
+The course was originally designed with references to the **CSTA K–12 Computer Science Standards (2017)**, including Level 3A identifiers. CSTA released revised standards in 2026, so the course materials use a documented crosswalk/remapping process where applicable.
 
 The course also references selected concepts from the **AP® Computer Science Principles** framework, particularly Big Ideas 1 and 3, and introduces pseudocode translation where appropriate.
 
