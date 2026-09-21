@@ -8,7 +8,7 @@ This curriculum is designed with reference to published computer science educati
 
 CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026. The revised standards use a new grade-band structure and new identifiers, replacing the Level 1A/1B/2/3A/3B structure used in the **CSTA K–12 Computer Science Standards, Revised 2017**.
 
-The current **Introduction to Python — Grades 9–12** course was originally developed with references to the 2017 standards. Any public `3A-...` or other 2017 identifiers should therefore be read as **legacy design references**, not as claims of current alignment to the 2026 standards.
+The current **Python Foundations — Grades 9–12** course was originally developed with references to the 2017 standards. Any public `3A-...` or other 2017 identifiers should therefore be read as **legacy design references**, not as claims of current alignment to the 2026 standards.
 
 A lesson-by-lesson remap to the 2026 standards is part of the curriculum's ongoing quality-assurance work. New or revised public standards references will use the 2026 framework once that remap has been verified.
 
