@@ -1,10 +1,16 @@
-# Computer Science Secondary Curriculum
+# Python Foundations
 
-**Python curriculum development · Grades 9–12 · Instructional design · Assessment · Technical QA**
+A complete seven-unit, 36-lesson introductory Python course for grades 9–12,
+published by Knowledge Branch Publishing. Every code sample and every error
+message in the course was executed on Python 3.12 before it shipped.
 
-This repository is a public portfolio and development showcase for an original, completed **36-lesson, 7-unit Introduction to Python course for Grades 9–12** created by **Marsharine A. Simpson**, a Computer Science educator with New Jersey and Florida teaching credentials and a B.S. in Information Technology & Security.
+Designed with reference to the 2026 CSTA PK–12 Computer Science Standards and
+the AP Computer Science Principles framework. Legacy 2017 CSTA identifiers,
+where shown, are historical design references. Not reviewed, certified, or
+endorsed by the Computer Science Teachers Association or the College Board.
+AP® and Advanced Placement® are registered trademarks of the College Board.
 
-> **All 36 lessons are complete, and the Python instructional content has been technically verified. Every Python example and interpreter message published here is verified by execution in Python 3.12 before release.**
+© 2026 Knowledge Branch Publishing. All rights reserved.
 
 That verification process is central to the project: the goal is not only to make programming content readable, but to make sure the examples, error messages, expected outputs, assessments, and teacher guidance are technically dependable.
 
@@ -22,7 +28,7 @@ That verification process is central to the project: the goal is not only to mak
 
 | | |
 |---|---|
-| **Course** | Introduction to Python |
+| **Course** | Python Foundations |
 | **Status** | 36 lessons complete · technical verification completed |
 | **Grade band** | 9–12 |
 | **Lessons** | 36 |
@@ -99,7 +105,7 @@ The curriculum also maintains correction records and version-aware notes because
 
 ## Standards references
 
-The course was originally designed with references to the **CSTA K–12 Computer Science Standards (2017)**, including Level 3A identifiers. CSTA released revised standards in 2026, so the course materials use a documented crosswalk/remapping process where applicable.
+The course was designed with reference to the **2026 CSTA PK–12 Computer Science Standards**. Legacy 2017 CSTA identifiers, where shown, are historical design references rather than current standards identifiers.
 
 The course also references selected concepts from the **AP® Computer Science Principles** framework, particularly Big Ideas 1 and 3, and introduces pseudocode translation where appropriate.
 
@@ -138,4 +144,4 @@ See [LICENSE](LICENSE) and [COPYRIGHT.md](COPYRIGHT.md).
 
 Materials are published for portfolio review, professional evaluation, and client evaluation. Public availability does not place them in the public domain, and reuse beyond the stated license requires written permission.
 
-© 2026 Marsharine A. Simpson. All rights reserved.
+© 2026 Knowledge Branch Publishing. All rights reserved.
