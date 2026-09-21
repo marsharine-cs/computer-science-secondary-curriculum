@@ -1,4 +1,4 @@
-# Introduction to Python — Grades 9–12
+# Python Foundations — Grades 9–12
 
 This directory presents the public portfolio view of an original **36-lesson, 7-unit secondary Python curriculum** developed by **Marsharine A. Simpson**.
 
