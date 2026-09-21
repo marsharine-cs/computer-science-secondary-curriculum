@@ -1,4 +1,4 @@
-# Introduction to Python — Public Course Overview
+# Python Foundations — Public Course Overview
 
 **Grades 9–12** · **36 lessons** · **7 units** · **One semester / 16 weeks**
 
@@ -10,7 +10,7 @@ Prepared by **Marsharine A. Simpson** — New Jersey CTE Computer Science Techno
 
 ## Course purpose
 
-**Introduction to Python** is a first text-based programming course designed for secondary students with no prior coding experience.
+**Python Foundations** is a first text-based programming course designed for secondary students with no prior coding experience.
 
 Students progress from producing simple output to designing structured programs that make decisions, repeat processes, organize code with functions, and work with collections of data.
 
@@ -104,7 +104,7 @@ Detailed assessment instruments, rubrics, answer keys, and teacher solutions are
 
 The course was originally developed with references to the **CSTA K–12 Computer Science Standards, Revised 2017**. CSTA published the **2026 CSTA PK–12 Computer Science Standards** in summer 2026 with a new grade-band structure and new identifiers. A lesson-by-lesson remap to the 2026 standards is now part of the course quality-assurance process.
 
-Legacy Level 3A and other 2017 identifiers are treated as historical design references until each lesson's 2026 mapping is verified. This curriculum has not received a CSTA Curriculum Alignment Review or Seal of Alignment.
+Legacy legacy 2017 and other 2017 identifiers are treated as historical design references until each lesson's 2026 mapping is verified. This curriculum has not received a CSTA Curriculum Alignment Review or Seal of Alignment.
 
 The course also references selected concepts from the **AP® Computer Science Principles** framework. This is **not** a complete AP Computer Science Principles course and should not be represented as an authorized AP® course.
 
