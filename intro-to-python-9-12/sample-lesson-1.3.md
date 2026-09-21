@@ -1,6 +1,6 @@
 # Lesson 1.3 — Reading Errors as Information
 
-**Introduction to Python** · Unit 1: Getting Started · Grades 9–12 · One 50-minute session
+**Python Foundations** · Unit 1: Getting Started · Grades 9–12 · One 50-minute session
 
 *This is a full instructional portfolio sample based on Lesson 1.3 from the course.*
 
