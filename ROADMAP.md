@@ -6,7 +6,7 @@ The repository is designed to grow across multiple programming languages, comput
 
 ## Current Priority
 
-### Introduction to Python — Grades 9–12
+### Python Foundations — Grades 9–12
 
 **Status: Complete — 36 lessons across 7 units, with technical verification completed**
 
@@ -64,7 +64,7 @@ Planned expansion areas may include:
 
 ### Computer Science Topics
 
-* Computer Science Foundations
+* Python Foundations
 * Web Development
 * Algorithms and Computational Thinking
 * Data and Computing
